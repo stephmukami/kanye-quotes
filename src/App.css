@@ -64,10 +64,3 @@ left: 8px;
 .dice-two:hover{
   box-shadow: 2px 2px 36px 4px hsl(150,100%,66%);
 }
-@media  screen and (max-width:375px) {
-
-.bottom-image{
- left:130px;
-}
-
-}
