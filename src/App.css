@@ -1,0 +1,73 @@
+body{
+  font-size: 15px;
+  font-family: 'Overpass', sans-serif;
+   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Manrope', sans-serif;
+  background-color: hsl(218, 23%, 16%);
+}
+.container{
+  width: 100%;
+   border-radius: 20px;
+  min-height: 300px;
+  max-width: 370px;
+  background-color: hsl(217, 19%, 24%);
+  padding: 10px;
+  margin: 0 auto;
+  display: flex; /* Add display flex to the container */
+  flex-direction: column; /* Set flex-direction to column */
+  align-items: center; 
+}
+.advice{
+  color: hsl(193, 38%, 86%);
+  text-align: center;
+  font-size: 18px;
+  position: relative;
+  top: 10px;
+  
+  
+}
+.topic{
+  color: hsl(150, 100%, 66%);
+  text-align: center;
+  letter-spacing: 5px;
+  font-size: 7px;
+  margin-top: 30px;
+  font-size: 15px;
+  margin-bottom: 0px;
+}
+
+.dice-background{
+  border-radius: 50%;
+  background-color: hsl(150,100%,66%);
+  height: 40px;
+  width: 40px;
+  position: relative;
+
+ 
+}
+.bottom-image{
+
+max-width: fit-content;
+position: relative;
+top:60px;
+
+}
+
+.dice-two{
+position: relative;
+bottom: 32px;
+left: 8px;
+}
+.dice-two:hover{
+  box-shadow: 2px 2px 36px 4px hsl(150,100%,66%);
+}
+@media  screen and (max-width:375px) {
+
+.bottom-image{
+ left:130px;
+}
+
+}
